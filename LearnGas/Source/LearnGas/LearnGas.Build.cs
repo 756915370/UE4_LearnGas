@@ -10,7 +10,7 @@ public class LearnGas : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
-			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "GameplayTags", "GameplayAbilities"
+			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "GameplayTags", "GameplayAbilities","GameplayTasks"
 		});
 	}
 }
