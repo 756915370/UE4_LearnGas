@@ -12,9 +12,17 @@ AGATargetActor::AGATargetActor()
 	bDestroyOnConfirmation = true;
 }
 
+AGATargetActor* AGATargetActor::NewTargetActorTest()
+{
+	AGATargetActor* TA = NewObject<AGATargetActor>();
+	return TA;
+}
+
 void AGATargetActor::StartTargeting(UGameplayAbility* Ability)
 {
 	OwningAbility = Ability;
+	
+	MyDelegate.Broadcast(FMyStruct());
 	MasterPC = Cast<APlayerController>(Ability->GetOwningActorFromActorInfo()->GetInstigatorController());
 }
 

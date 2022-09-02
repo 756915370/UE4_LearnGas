@@ -7,6 +7,16 @@
 #include "UObject/Object.h"
 #include "GATargetActor.generated.h"
 
+USTRUCT(BlueprintType)
+struct FMyStruct
+{
+	GENERATED_BODY()
+	int Number;
+	FString Str;
+};
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMyCustomDelegate, const FMyStruct&, Data);
+
 /**
  * 
  */
@@ -18,6 +28,13 @@ class LEARNGAS_API AGATargetActor : public AGameplayAbilityTargetActor
 public:
 	AGATargetActor();
 
+	UPROPERTY(BlueprintAssignable)
+	FMyCustomDelegate MyDelegate;
+
+	//加了BlueprintInternalUseOnly后蓝图就不能看到了。像AbilityTask_WaitTargetData就是加了这个宏。然后在UK2Node_LatentGameplayTaskCall绘制UFUNCTION。
+	UFUNCTION(BlueprintCallable,meta=(BlueprintInternalUseOnly = "true"))
+	static AGATargetActor* NewTargetActorTest();
+	
 	virtual void StartTargeting(UGameplayAbility* Ability) override;
 	virtual void ConfirmTargetingAndContinue() override;
 
