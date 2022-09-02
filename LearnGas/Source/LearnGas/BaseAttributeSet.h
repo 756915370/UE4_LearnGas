@@ -52,5 +52,14 @@ public:
 	FGameplayAttributeData MaxStamina;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet,MaxStamina)
 
+	//Attribute for Shield
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="BaseAttribute")
+	FGameplayAttributeData Shield;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet,Shield)
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="BaseAttribute")
+	FGameplayAttributeData MaxShield;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet,MaxShield)
+
 	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 };

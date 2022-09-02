@@ -74,6 +74,12 @@ void ABaseCharacter::GetStaminaValues(float& Sta, float& MaxSta)
 	MaxSta = BaseAttributeSetComp->GetMaxStamina();
 }
 
+void ABaseCharacter::GetShieldsValues(float& Shield, float& MaxShield)
+{
+	Shield = BaseAttributeSetComp->GetShield();
+	MaxShield = BaseAttributeSetComp->GetMaxShield();
+}
+
 void ABaseCharacter::OnHealthChangedNative(const FOnAttributeChangeData& Data)
 {
 	OnHealthChanged(Data.OldValue,Data.NewValue);

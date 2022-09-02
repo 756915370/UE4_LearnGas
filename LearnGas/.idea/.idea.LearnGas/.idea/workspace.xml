@@ -9,10 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f0efe42-563d-4e4c-946d-9907f3199cc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/LearnGas/GEExecMelee.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LearnGas/GEExecMelee.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnGas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnGas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/Teleport/BP_GATargetActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GasDataBp/Teleport/BP_GATargetActor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LearnGas/GATargetActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/GATargetActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LearnGas/GATargetActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/GATargetActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/GA_Melee.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/GE_MeleeCost.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/GE_MeleeDamage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/InitiaDataTable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GasDataBp/InitiaDataTable.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_BaseCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_BaseCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/WBP_EnemyUI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/WBP_EnemyUI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LearnGas/BaseAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/BaseAttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LearnGas/BaseAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/BaseAttributeSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LearnGas/BaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/BaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LearnGas/BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LearnGas/BaseCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/corecrt_math.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -272,6 +286,7 @@
       <workItem from="1661704248605" duration="3195000" />
       <workItem from="1662099233147" duration="765000" />
       <workItem from="1662100073165" duration="7049000" />
+      <workItem from="1662109575071" duration="8237000" />
     </task>
     <servers />
   </component>
@@ -280,6 +295,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

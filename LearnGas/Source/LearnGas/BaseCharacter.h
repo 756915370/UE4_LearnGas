@@ -49,6 +49,9 @@ public:
 
 	UFUNCTION(BlueprintPure,Category="BaseCharacter")
 	void GetStaminaValues(float& Sta,float& MaxSta);
+	
+	UFUNCTION(BlueprintPure,Category="BaseCharacter")
+	void GetShieldsValues(float& Shield,float& MaxShield);
 
 	void OnHealthChangedNative(const FOnAttributeChangeData& Data);
 	void OnManaChangedNative(const FOnAttributeChangeData& Data);
