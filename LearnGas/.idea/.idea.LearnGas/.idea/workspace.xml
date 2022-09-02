@@ -8,7 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0efe42-563d-4e4c-946d-9907f3199cc4" name="Changes" comment="" />
+    <list default="true" id="3f0efe42-563d-4e4c-946d-9907f3199cc4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnGas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnGas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/BP_BaseGameplayAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GasDataBp/BP_BaseGameplayAbility.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/Teleport/BP_GATargetActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GasDataBp/Teleport/BP_GATargetActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GasDataBp/Teleport/GA_Teleport.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GasDataBp/Teleport/GA_Teleport.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnGas.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LearnGas.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,6 +272,8 @@
       <workItem from="1659979782542" duration="11000" />
       <workItem from="1661679266387" duration="1150000" />
       <workItem from="1661704248605" duration="3195000" />
+      <workItem from="1662099233147" duration="765000" />
+      <workItem from="1662100073165" duration="2966000" />
     </task>
     <servers />
   </component>
